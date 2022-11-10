@@ -10,8 +10,8 @@ export function addService(name, price) {
   return { type: ADD_SERVICE, payload: { name, price } };
 }
 
-export function editService(id, name, price) {
-  return { type: EDIT_SERVICE, payload: { id, name, price } };
+export function editService(name, price) {
+  return { type: EDIT_SERVICE, payload: { name, price } };
 }
 
 export function clearService() {
